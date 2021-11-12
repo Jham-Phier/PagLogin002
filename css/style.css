@@ -1,0 +1,117 @@
+@import url ('https://fonts.googleapis.com/css2? family = Abrir + Sans: wght @ 300; 400; 500 & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: #1b2029;
+    font-weight: 500;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1 {
+    color: #8880fe;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+main .midia {
+    display: flex;
+    flex-direction: center;
+}
+
+main .midia a {
+    text-decoration: none;
+}
+
+
+main .midia a:first-child img {
+    margin-left: 0;
+}
+
+main .midia img {
+    width: 36px;
+    margin-left: 36px;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span {
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+
+main form input {
+    background-color: #161923;
+    width: 300px;
+    height: 50px;
+    padding: 0 .5rem;
+    margin-top: 1rem;
+    text-transform: capitalize;
+    font-size: 1rem;
+    border: 1px solid #040b18;
+    border-radius: 8px;
+}
+
+main form input[type="submit"] {
+    width: 50%;
+    cursor: pointer;
+    border-radius: 32px;
+    background-color: #6c63ff;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    transition: 1s;
+}
+
+main form input[type="submit"]:hover {
+    background-color: white;
+    color: #6c63ff;
+}
+
+main .alternativa {
+    margin-top: 1rem;
+}
+
+main .alternativa span {
+    color: rgba(255, 255, 255, .5);
+    position: relative;
+}
+
+main .alternativa span::before, main .alternativa span::after {
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    right: 50px;
+    background: rgba(255, 255, 255, .5);
+    bottom: 50%;
+    
+}
+
+main .alternativa span::after {
+    left: 50px;
+}
